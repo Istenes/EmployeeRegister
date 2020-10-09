@@ -1,3 +1,8 @@
+import employee.Employee;
+import employee.Programmer;
+import employee.ProjectManager;
+import employee.ScrumMaster;
+
 import java.util.ArrayList;
 
 public class Main {
@@ -28,7 +33,7 @@ public class Main {
         employees.add(scrumMaster);
 
         for (Employee employee: employees) {
-            System.out.println("Employee " + employee.name + " (" + employee.age + ") has the salary: " + employee.salary);
+            System.out.println("employee.Employee " + employee.name + " (" + employee.age + ") has the salary: " + employee.salary);
         }
 
     }
